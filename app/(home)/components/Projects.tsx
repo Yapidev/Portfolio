@@ -18,7 +18,7 @@ export default function Projects() {
       title: "Metrix For Education",
       tech: [SiLaravel, SiJavascript, SiJquery, SiBootstrap],
       link: "https://metrixforeducation.org/",
-      cover: "/Hummatask.png",
+      cover: "/Metrixforedu.png",
       background: "bg-green-500",
     },
   ];
