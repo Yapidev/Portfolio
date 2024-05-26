@@ -10,30 +10,16 @@ export default function Projects() {
     {
       title: "Hummatask Task Management",
       tech: [SiLaravel, SiJavascript, SiJquery, SiBootstrap],
-      link: "https://hummatask.hummatech.com",
+      link: "https://task.hummatech.com/",
       cover: "/Hummatask.png",
       background: "bg-indigo-500",
     },
     {
-      title: "Hummatask Task Management",
+      title: "Metrix For Education",
       tech: [SiLaravel, SiJavascript, SiJquery, SiBootstrap],
-      link: "https://hummatask.hummatech.com",
+      link: "https://metrixforeducation.org/",
       cover: "/Hummatask.png",
       background: "bg-green-500",
-    },
-    {
-      title: "Hummatask Task Management",
-      tech: [SiLaravel, SiJavascript, SiJquery, SiBootstrap],
-      link: "https://hummatask.hummatech.com",
-      cover: "/Hummatask.png",
-      background: "bg-green-500",
-    },
-    {
-      title: "Hummatask Task Management",
-      tech: [SiLaravel, SiJavascript, SiJquery, SiBootstrap],
-      link: "https://hummatask.hummatech.com",
-      cover: "/Hummatask.png",
-      background: "bg-indigo-500",
     },
   ];
 
