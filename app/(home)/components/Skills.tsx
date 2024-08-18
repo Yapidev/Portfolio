@@ -12,6 +12,8 @@ import {
   SiPhp,
   SiReact,
   SiTailwindcss,
+  SiLivewire,
+  SiAlpinedotjs,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -33,10 +35,6 @@ export default function Skills() {
       Icon: SiJquery,
     },
     {
-      text: "PHP",
-      Icon: SiPhp,
-    },
-    {
       text: "Laravel",
       Icon: SiLaravel,
     },
@@ -49,8 +47,12 @@ export default function Skills() {
       Icon: SiNextdotjs,
     },
     {
-      text: "Tailwind",
-      Icon: SiTailwindcss,
+      text: "Alpine.js",
+      Icon: SiAlpinedotjs,
+    },
+    {
+      text: "Livewire",
+      Icon: SiLivewire,
     },
   ];
 

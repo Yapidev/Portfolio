@@ -1,5 +1,5 @@
 import React from "react";
-import { SiBootstrap, SiJavascript, SiJquery, SiLaravel } from "react-icons/si";
+import { SiAlpinedotjs, SiBootstrap, SiJavascript, SiJquery, SiLaravel, SiLivewire } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -21,6 +21,20 @@ export default function Projects() {
       cover: "/Metrixforedu.png",
       background: "bg-green-500",
     },
+    {
+      title: "Konseling Kesehatan Remaja (Konsera)",
+      tech: [SiLaravel, SiLivewire, SiAlpinedotjs, SiBootstrap],
+      link: "https://konsera.kaitodecode.com/",
+      cover: "/Konsera.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "DateKita",
+      tech: [SiLaravel, SiLivewire, SiAlpinedotjs, SiBootstrap],
+      link: "https://521.my.id/",
+      cover: "/DateKita.png",
+      background: "bg-indigo-500",
+    }
   ];
 
   return (
