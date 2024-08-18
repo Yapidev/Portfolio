@@ -14,37 +14,15 @@ import {
   SiTailwindcss,
   SiLivewire,
   SiAlpinedotjs,
+  SiLaragon,
+  SiBootstrap,
 } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
     {
-      text: "HTML",
-      Icon: SiHtml5,
-    },
-    {
-      text: "CSS",
-      Icon: SiCss3,
-    },
-    {
-      text: "Javascript",
-      Icon: SiJavascript,
-    },
-    {
-      text: "Jquery",
-      Icon: SiJquery,
-    },
-    {
       text: "Laravel",
       Icon: SiLaravel,
-    },
-    {
-      text: "React",
-      Icon: SiReact,
-    },
-    {
-      text: "Next js",
-      Icon: SiNextdotjs,
     },
     {
       text: "Alpine.js",
@@ -53,6 +31,18 @@ export default function Skills() {
     {
       text: "Livewire",
       Icon: SiLivewire,
+    },
+    {
+      text: "Laragon",
+      Icon: SiLaragon,
+    },
+    {
+      text: "Boostrap",
+      Icon: SiBootstrap,
+    },
+    {
+      text: "Tailwindcss",
+      Icon: SiTailwindcss,
     },
   ];
 
