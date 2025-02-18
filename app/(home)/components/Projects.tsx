@@ -1,5 +1,5 @@
 import React from "react"
-import { SiAlpinedotjs, SiBootstrap, SiJavascript, SiJquery, SiLaravel, SiLivewire } from "react-icons/si"
+import { SiAlpinedotjs, SiBootstrap, SiJavascript, SiJquery, SiLaravel, SiLivewire, SiTailwindcss } from "react-icons/si"
 import Title from "./Title"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
@@ -35,6 +35,13 @@ export default function Projects() {
             cover: "/DateKita.png",
             background: "bg-indigo-500",
         },
+        {
+            title: "PKL Hummatech",
+            tech: [SiLaravel, SiJavascript, SiAlpinedotjs, SiTailwindcss],
+            link: "https://pkl.hummatech.com/",
+            cover: "/PklHummatech.png",
+            background: "bg-indigo-500",
+        }
     ]
 
     return (
