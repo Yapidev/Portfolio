@@ -3,14 +3,7 @@ import React from "react"
 import Title from "./Title"
 import { HoverEffect } from "@/components/ui/card-hover-effect"
 import {
-    SiCss3,
-    SiHtml5,
-    SiJavascript,
-    SiJquery,
     SiLaravel,
-    SiNextdotjs,
-    SiPhp,
-    SiReact,
     SiTailwindcss,
     SiLivewire,
     SiAlpinedotjs,
