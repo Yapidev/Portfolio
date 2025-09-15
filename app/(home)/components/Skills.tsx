@@ -3,10 +3,13 @@ import React from "react"
 import Title from "./Title"
 import { HoverEffect } from "@/components/ui/card-hover-effect"
 import {
+    SiC,
+    SiCplusplus,
+    SiPython,
+    SiNextdotjs,
     SiLaravel,
     SiTailwindcss,
     SiLivewire,
-    SiAlpinedotjs,
     SiLaragon,
     SiBootstrap,
 } from "react-icons/si"
@@ -14,12 +17,24 @@ import {
 export default function Skills() {
     const skills = [
         {
-            text: "Laravel",
-            Icon: SiLaravel,
+            text: "C",
+            Icon: SiC,
         },
         {
-            text: "Alpine.js",
-            Icon: SiAlpinedotjs,
+            text: "C++",
+            Icon: SiCplusplus,
+        },
+        {
+            text: "Python",
+            Icon: SiPython,
+        },
+        {
+            text: "Next JS",
+            Icon: SiNextdotjs,
+        },
+        {
+            text: "Laravel",
+            Icon: SiLaravel,
         },
         {
             text: "Livewire",
